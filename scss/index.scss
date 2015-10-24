@@ -1,7 +1,4 @@
-@import "../bower_components/bootstrap/scss/bootstrap";
 
-$color: green;
-
-html, body {
-    color: $color;
-}
+// my custom bootstrap
+@import "./variables";
+@import "./bootstrap";
