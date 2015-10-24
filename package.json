@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/http-server/bin/http-server",
-    "sass": "./node_modules/node-sass/bin/node-sass index.scss > dist/index.css"
+    "sass": "./node_modules/node-sass/bin/node-sass --watch --include-path scss scss/index.scss > dist/index.css"
   },
   "repository": {
     "type": "git",
