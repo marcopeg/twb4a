@@ -1,0 +1,19 @@
+{
+  "name": "b4a",
+  "version": "0.0.0",
+  "homepage": "https://github.com/marcopeg/twb4a",
+  "authors": [
+    "Marco Pegoraro <marco.pegoraro@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "v4-dev"
+  }
+}
