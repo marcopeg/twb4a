@@ -17,4 +17,14 @@ or a shortcut to compile and run:
 
 	npm run sass && npm start
 	
+## Development Session
+
+Open two terminal windows (or tabs) and run
+
+	// terminal 1
+	npm run sass
 	
+	// terminal 2
+	npm start
+	
+NOTE: when the process start it fucks up the css, just save the scss file the first time and it will be ok.
