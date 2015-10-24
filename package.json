@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/http-server/bin/http-server"
+    "start": "./node_modules/http-server/bin/http-server",
+    "sass": "./node_modules/node-sass/bin/node-sass index.scss > dist/index.css"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/marcopeg/twb4a#readme",
   "devDependencies": {
-    "http-server": "^0.8.5"
+    "http-server": "^0.8.5",
+    "node-sass": "^3.3.3"
   }
 }
