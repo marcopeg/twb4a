@@ -11,18 +11,15 @@
 	
 ## Compile SASS
 
-	npm run sass
+	npm run build
 	
-or a shortcut to compile and run:
-
-	npm run sass && npm start
 	
 ## Development Session
 
 Open two terminal windows (or tabs) and run
 
 	// terminal 1
-	npm run sass
+	npm run watch
 	
 	// terminal 2
 	npm start
